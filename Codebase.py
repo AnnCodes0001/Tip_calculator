@@ -1,0 +1,6 @@
+print('Welcome to Tip generator!!\n')
+bill =float(input('How much is the Bill?: \n'))
+no_of_people =int(input('How many people will spilt the bill?: \n'))
+tip = int(input('How many percent 10. 12, 15 0r 20? \n'))
+total_bill = (bill/no_of_people) * (1 + tip/100)
+print(round(total_bill, 2))
